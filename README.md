@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm lst016 👋</h1>
 
 <p align="center">
-  用 React、TypeScript 和 Electron 构建 AI Agent 桌面应用。<br />
-  Building desktop experiences for AI agents with React, TypeScript, and Electron.
+  用 React、TypeScript 和 Electron 构建 AI Agent 桌面应用，也把环境配置经验整理成可复用的 Skill。<br />
+  Building desktop experiences for AI agents with React, TypeScript, and Electron, and turning environment setup workflows into reusable skills.
 </p>
 
 ## tech-cc-hub
@@ -36,3 +36,17 @@ I'm building tech-cc-hub to bring conversations, tasks, browser tools, model rou
 ### 技术栈 · Built with
 
 `Electron` · `React` · `TypeScript` · `Claude Agent SDK` · `MCP` · `SQLite`
+
+## claude-environment-skill
+
+**Claude 环境配置：真实 UI 图文 Skill · An illustrated skill for Claude environment setup**
+
+把 kookeey、Clash、BitBrowser 与 Claude Code 的配置步骤整理成可复用的 Skill。通过真实界面截图、安装说明和只读检查脚本，帮助新电脑完成配置，也方便已有环境排障；可安装到 Codex 和 Claude Code。
+
+A reusable skill that documents setup workflows across kookeey, Clash, BitBrowser, and Claude Code. Real UI screenshots, installation guides, and read-only checks help with new-machine setup and troubleshooting existing environments. Installable in both Codex and Claude Code.
+
+**[查看项目 · Explore the project](https://github.com/lst016/claude-environment-skill)** &nbsp; · &nbsp; **[图文教程 · Illustrated guide](https://github.com/lst016/claude-environment-skill/blob/main/skills/claude-environment-setup/references/illustrated-guide.md)** &nbsp; · &nbsp; **[安装说明 · Installation](https://github.com/lst016/claude-environment-skill/blob/main/skills/claude-environment-setup/references/install.md)**
+
+- **真实界面 · Real UI**：说明在哪里点、填什么、如何判断结果。 / Shows where to click, what to enter, and how to check the result.
+- **复用与排障 · Reuse & troubleshooting**：优先复用已有配置，提供只读环境检查。 / Reuses existing setup where possible and provides read-only environment checks.
+- **适用范围 · Platform scope**：主流程面向 macOS；Windows 提供安装入口和差异说明，尚未实机验收。 / Primarily for macOS; Windows installation notes are included, but have not been validated on a Windows machine.
